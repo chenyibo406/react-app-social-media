@@ -1,3 +1,4 @@
 
 # ignore env in react-app
 **/*.env
+react-app/.env
