@@ -17,7 +17,7 @@ const Pin = ({ pin }) => {
   const user = fetchUser();
 
   //   console.log(pin);
-  console.log(user);
+  // console.log(user);
   //   console.log(save);
 
   const userSave = save?.filter((item) => item?.postedBy._id === user?.sub);

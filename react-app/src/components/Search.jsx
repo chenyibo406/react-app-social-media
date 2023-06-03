@@ -24,7 +24,7 @@ const Search = ({ searchTerm }) => {
     }
   }, [searchTerm]);
 
-  console.log(pins);
+  // console.log(pins);
 
   return (
     <div>
