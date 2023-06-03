@@ -22,7 +22,7 @@ const CreatePin = ({ user }) => {
 
   const uploadImage = (e) => {
     const { type, name } = e.target.files[0];
-    console.log(e.target.files[0]);
+    // console.log(e.target.files[0]);
 
     if (
       type === "image/png" ||
@@ -67,10 +67,10 @@ const CreatePin = ({ user }) => {
             _ref: imageAsset?._id,
           },
         },
-        userId: user._id,
+        userId: user?._id,
         postedBy: {
           _type: "postedBy",
-          _ref: user._id,
+          _ref: user?._id,
         },
         category,
       };

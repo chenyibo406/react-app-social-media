@@ -2,8 +2,9 @@
 import { createClient } from "@sanity/client";
 import imageUrlBuider from "@sanity/image-url";
 
-const projectId = import.meta.env.VITE_REACT_APP_SANITY_PROJECT_ID;
-const token = import.meta.env.VITE_REACT_APP_SANITY_TOKEN;
+const projectId = "nwmtme0z";
+const token =
+  "skzuuhamqZtaEimy7do4qLv5js7WYLmrYR969wdEkf5g7fIzdvx9dhzKrGnkZAarII7FfzC2r3v35hSCUPH2tT5OoNOA27npmlL8NRzKZhFapuRvrcOmoQPPASCr4asNnncx5jCMEUevcPHPgDrfo2LNDzBHrrDAFhPNortArIEwT6ItqAgj";
 
 export const client = createClient({
   projectId: projectId,
